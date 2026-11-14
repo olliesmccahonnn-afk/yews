@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "itemskins",
+  "version": "1.0.0",
+  "name": "Item Skins",
+  "description": "Import PNG item textures from an in-game GUI and assign them to any item, with presets and custom tabs. No resource pack needed.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.itemskins.ItemSkinsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
